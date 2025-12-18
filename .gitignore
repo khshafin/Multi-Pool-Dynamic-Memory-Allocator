@@ -1,0 +1,31 @@
+# Build artifacts
+*.o
+*.so
+*.a
+
+# Executables (but not .c source files)
+test_simple_malloc
+test_bulk
+
+# Submission files
+*.tar
+*.zip
+
+# Editor temp files
+*~
+*.swp
+*.swo
+.*.swp
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Core dumps
+core
+core.*
+
+# Debugging
+*.dSYM/
