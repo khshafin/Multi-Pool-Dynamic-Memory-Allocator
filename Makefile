@@ -1,7 +1,7 @@
 # Multi-Pool Dynamic Memory Allocator Makefile
 
 CC = gcc
-CFLAGS = -g -Wall -Werror -std=c99 -fPIC -D_DEFAULT_SOURCE
+CFLAGS = -g -Wall -Werror -Wno-deprecated-declarations -std=c99 -fPIC -D_DEFAULT_SOURCE
 LDFLAGS = -shared -fPIC
 
 # Source files
